@@ -1,0 +1,3 @@
+topicName,dataTypeNum,typeName1,typeName2,typeName3,typeName4
+/steering_angle_deg,3,.Header.Stamp.Sec,.Header.Stamp.Nsec,.Angle,
+/velometer/base_link_local,4,.Header.Stamp.Sec,.Header.Stamp.Nsec,.Twist.Linear.X,.Twist.Linear.Y
