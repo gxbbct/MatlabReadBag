@@ -1,3 +1,6 @@
-topicName,dataTypeNum,typeName1,typeName2,typeName3,typeName4
-/steering_angle_deg,3,.Header.Stamp.Sec,.Header.Stamp.Nsec,.Angle,
-/velometer/base_link_local,4,.Header.Stamp.Sec,.Header.Stamp.Nsec,.Twist.Linear.X,.Twist.Linear.Y
+topicName,dataTypeNum,typeName1,typeName2,typeName3,typeName4,typeName5,typeName6,typeName7,typeName8,typeName9,typeName10,typeName11,typeName12
+/steering_angle_deg,3,.Header.Stamp.Sec,.Header.Stamp.Nsec,.Angle,,,,,,,,,
+/velometer/base_link_local,4,.Header.Stamp.Sec,.Header.Stamp.Nsec,.Twist.Linear.X,.Twist.Linear.Y,,,,,,,,
+/imu/data,4,.Header.Stamp.Sec,.Header.Stamp.Nsec,.LinearAcceleration.X,.LinearAcceleration.Y,,,,,,,,
+/parking_slot_info,12,.Header.Stamp.Sec,.Header.Stamp.Nsec,.RefPose.X,.RefPose.Y,.RefPose.Theta,.RefExtendX,.RefExtendY,.ObstaclePose.X,.ObstaclePose.Y,.ObstaclePose.Theta,.ObstacleExtendX,.ObstacleExtendY
+/odometer/local_map/base_link,8,.Header.Stamp.Sec,.Header.Stamp.Nsec,.Pose.Pose.Position.X,.Pose.Pose.Position.Y,.Pose.Pose.Orientation.W,.Pose.Pose.Orientation.X,.Pose.Pose.Orientation.Y,.Pose.Pose.Orientation.Z,,,,
